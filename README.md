@@ -4,7 +4,7 @@ A script using drgn (https://github.com/osandov/drgn) to interpret freeponter of
 # Usage
 
 ~~~
-kmem_fp.py [VMCORE] [VMLINX] SLAB
+kmem_fp.py [VMCORE [VMLINX]] SLAB
 ~~~
 
 # Example

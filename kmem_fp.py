@@ -55,7 +55,7 @@ def main(argv):
         prog.load_debug_info([argv[2]])
         name = argv[3]
     else:
-        print(f"usage: {argv[0]} [VMCORE] [VMLINX] SLAB")
+        print(f"usage: {argv[0]} [VMCORE [VMLINX]] SLAB")
         return
     kmem_cache = find_slab_cache(prog, name)
     if kmem_cache is None:
